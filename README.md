@@ -9,6 +9,23 @@
 - 单文件，`docstruct.py` 拷走就能用
 - 只做机械判定，不评价措辞与观点
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install shan409279-docstruct
+```
+
+装完直接用命令名调用：
+
+```bash
+docstruct --help
+```
+
+也可以不用安装，直接把 `docstruct.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 内容写得再好，结构有毛病的话读者还是读不下去。最常见的几种：
