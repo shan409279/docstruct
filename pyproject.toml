@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shan409279-docstruct"
+version = "0.1.0"
+description = "检查 Markdown 文档结构是否立得住"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "shan409279" }]
+keywords = ["markdown", "documentation", "structure", "lint"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/shan409279/docstruct"
+Repository = "https://github.com/shan409279/docstruct"
+Issues = "https://github.com/shan409279/docstruct/issues"
+
+[project.scripts]
+docstruct = "docstruct:main"
+
+[tool.setuptools]
+py-modules = ["docstruct"]
